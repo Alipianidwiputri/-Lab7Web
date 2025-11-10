@@ -8,7 +8,7 @@
 
 **Dosen Pengampu : Agung Nugroho, S.Kom., M.Kom.**
 
-- # Langkah Langkah  & penjelasan dari setiap langkah praktikum beserta screenshotnya
+# Langkah Langkah  & penjelasan dari setiap langkah praktikum beserta screenshotnya
 
 
 
