@@ -1,7 +1,11 @@
 **Nama : Alipiani Dwi Putri**
+
 **NIM : 312410691**
+
 **Kelas : TI 24 A2**
+
 **Mata KUliah : Pemrograman Web 1**
+
 **Dosen Pengampu : Agung Nugroho, S.Kom., M.Kom.**
 
 # Langkah Langkah  & penjelasan dari setiap langkah praktikum beserta screenshotnya
@@ -278,119 +282,7 @@ Code
 
 
 
-# Keseluruhan(versi lengkap)
-
-Code
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Belajar PHP Dasar</h1>
-    <?php
-    echo "Hello Alipiani";
-    ?>
-    <h2> Menggunakan variable </h2>
-    <?php
-    $nim = "312410691";
-    $nama = 'Alipiani Dwi Putri';
-    echo "NIM : " . $nim . "<br>";
-    echo "Nama : $nama";
-    ?>
-    <h2> Predefine Variable </h2>
-    <?php
-    echo 'Selamat Datang ' . $nama;
-    ?>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>PHP Dasar</title>
-</head>
-<body>
-    <h2>Form Input</h2>
-    <form method="post">
-    <label>Nama: </label>
-    <input type="text" name="nama">
-    <input type="submit" value="Kirim">
-</form>
-    <?php
-    echo 'Selamat Datang ' . $nama;
-?>
-    <h2> Operator</h2>
-    <?php
-    $gaji = 1000000;
-    $pajak = 0.1;
-    $thp = $gaji - ($gaji*$pajak);
-    echo "Gaji sebelum pajak = Rp. $gaji <br>";
-    echo "Gaji yang dibawa pulang = Rp. $thp";
-?>
-    <h2>Kondisi IF</h2>
-<?php
-    $nama_hari = date("l");
-    if ($nama_hari == "Sunday") 
-        { echo "Minggu";} 
-    elseif ($nama_hari == "Monday") 
-        {echo "Senin";} 
-    else {echo "Selasa";}
-?>
-    <h2>Kondisi Switch</h2>
-<?php
-    $nama_hari = date("2");
-    switch ($nama_hari) {case "Sunday":
-    echo "Minggu";
-    break;
-    case "Monday":
-    echo "Senin";
-    break;
-    case "Tuesday":
-    echo "Selasa";
-    break;
-    default:
-    echo "Sabtu";
-    }
-?>
-    <h2>Perulangan for</h2>
-<?php
-    echo "Perulangan 1 sampai 10 <br />";
-    for ($i=1; $i<=10; $i++) {
-    echo "Perulangan ke: " . $i . '<br />';
-    }
-    echo "Perulangan Menurun dari 10 ke 1 <br />";
-    for ($i=10; $i>=1; $i--) {
-    echo "Perulangan ke: " . $i . '<br />';
-    }
-?>
-    <h2>Perulangan while</h2>
-<?php
-    echo "Perulangan 1 sampai 10 <br />";
-    $i=1;
-    while ($i<=10) {
-    echo "Perulangan ke: " . $i . '<br />';
-    $i++;
-    }
-?>
-    <h2>Perulangan dowhile</h2>
-<?php
-    echo "Perulangan 1 sampai 10 <br />";
-    $i=1;
-    do {
-    echo "Perulangan ke: " . $i . '<br />';
-    $i++;
-    } while ($i<=10);
-?>
-</body>
-</html>
-```
-
-**Output**
+# Output Keseluruhan(versi lengkap)
 
 
 
