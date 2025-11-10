@@ -1,12 +1,19 @@
-# Lab7Web
+**Nama : Alipiani Dwi Putri**
+**NIM : 312410691**
+**Kelas : TI 24 A2**
+**Mata KUliah : Pemrograman Web 1**
+**Dosen Pengampu : Agung Nugroho, S.Kom., M.Kom.**
 
 # Langkah Langkah  & penjelasan dari setiap langkah praktikum beserta screenshotnya
+
+
+
 
 # 1. Buat folder lab7_php_dasar pada root directory web server (d:\xampp\htdocs)
 
 <img width="1034" height="230" alt="image" src="https://github.com/user-attachments/assets/b0cca827-3aec-44d2-939b-50cf537f81f3" />
 
-# 2. Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: 
+# 2. Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab7_php_dasar/
 
 # 3. PHP Dasar 
